@@ -9,6 +9,6 @@ function max_array($arr){
     }
     return $max_number;
 }
-echo max_array(array(1,2,3))."\n";
+echo max_array(array())."\n";
 
 ?>

@@ -1,14 +1,13 @@
 <?php
 
 function bby($arr){
-  $ccz = 1;
+  $result = 1;
   foreach($arr as $a){
-    $ccz *= $a;
+    $result *= $a;
   }
- echo $ccz."\n";
+ return $result;
 }
-bby(array(1, 3, 5 ,7, 9));
-
-
+$arr =(array(1, 3, 5 ,7, 9));
+echo bby($arr)."\n";
 
 ?>
